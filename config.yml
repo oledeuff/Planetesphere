@@ -1,0 +1,91 @@
+select_origin: online
+files_origin: ""
+nodes_origin: ""
+links_origin: ""
+nodes_online: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRusnJgkDeopHaPpVkICuIcpSjHKR1O1cGhkwb0a-7FwGoEpjt5RQIq2HzvUMs73U9_ItVZZpfZc0No/pub?gid=1314973246&single=true&output=csv"
+links_online: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRusnJgkDeopHaPpVkICuIcpSjHKR1O1cGhkwb0a-7FwGoEpjt5RQIq2HzvUMs73U9_ItVZZpfZc0No/pub?gid=1319572649&single=true&output=csv"
+images_origin: "./img/"
+export_target: ""
+history: true
+focus_max: 2
+record_types:
+  undefined:
+    fill: "#858585"
+    stroke: "#858585"
+  Personne:
+    fill: "#FF0000"
+    stroke: "#FF0000"
+  Collectif:
+    fill: "#00FF00"
+    stroke: "#00FF00"
+  Évènement:
+    fill: "#0000FF"
+    stroke: "#0000FF"
+  Ouvrage:
+    fill: "#FFFF00"
+    stroke: "#FFFF00"
+  Numéro de revue:
+    fill: "#00FFFF"
+    stroke: "#00FFFF"
+  Concept:
+    fill: "#FF00FF"
+    stroke: "#FF00FF"
+  Fiction:
+    fill: "#C0C0C0"
+    stroke: "#C0C0C0"
+  Science:
+    fill: "#808080"
+    stroke: "#808080"
+  Esotérisme:
+    fill: "#800000"
+    stroke: "#800000"
+  Paranormal:
+    fill: "#008000"
+    stroke: "#008000"
+  Histoire secrète:
+    fill: "#000080"
+    stroke: "#000080"
+  Sciences Alternatives:
+    fill: "#808000"
+    stroke: "#808000"
+link_types:
+  undefined:
+    stroke: simple
+    color: "#e1e1e1"
+record_filters: []
+graph_background_color: "##080808"
+graph_highlight_color: "#ff6a6a"
+graph_highlight_on_hover: true
+graph_text_size: 10
+graph_arrows: true
+node_size_method: degree
+node_size: 10
+node_size_max: 20
+node_size_min: 2
+attraction_force: 200
+attraction_distance_max: 250
+attraction_vertical: 0
+attraction_horizontal: 0
+views: {}
+chronological_record_meta: created
+record_metas:
+  - prenom
+  - nom
+  - genre
+  - time:begin
+  - time:end
+  - pays
+  - domaine
+  - site
+title: "PlanèteSphère. La Revue Planète"
+author: "Olivier Le Deuff"
+description: "Planète était la fameuse revue inclassable des années 1960"
+keywords: []
+link_symbol: ""
+csl: ""
+bibliography: ""
+csl_locale: ""
+css_custom: "./planete.css"
+devtools: false
+lang: en
+name: ""
